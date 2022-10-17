@@ -1,0 +1,134 @@
+@import './variables/utilities';
+
+section.blog{
+    background: #f5f6fb;
+    padding: 3.25rem 0;
+    
+}
+.card_main {padding: 3.25rem 0; border-bottom: 1px solid rgb(60 62 72 / 28%);
+}
+.card_box{
+    background: #fff;
+    background-color: $secondary;
+    border: 1px solid #ceceda;
+    box-shadow: 0 12px 20px 0 rgb(0 0 0 / 15%);}
+.item {width: 100%;}.cardtxt{color: $black;padding: 1.62rem;}
+.date_element {
+    font-size: 15px;
+    color: $paragraph;}
+.blog_heading h3 {margin-top: 1.12rem;
+    //min-height: 70px;
+    color: $black;
+    font-family: 'Nunito',sans-serif;
+    font-size: 20px;
+    line-height: 24px;
+    font-weight: 600;
+    cursor: pointer;}
+.blog_heading p {
+    font-style: 17px;
+    font-weight: 400;
+    line-height: 22px;
+    color: $light;
+    padding: 17px 0;}
+
+.blog_heading h3:hover, .blog_btn:hover {
+    color: #f73a3a;
+    transition: color .3s, traform .4s;}
+
+.blog_header {
+    text-align: left;}
+
+.blog_header h1 {
+    font-size: 2.2rem;
+    font-weight: 500;
+}
+
+.blog_header p {
+    font-weight: 200;
+    max-width: 602px;
+    font-size: 17px;
+    padding: 1.11rem 0;
+    line-height: 25px;}
+
+//btns
+.blog_btn {
+    background: transparent;
+    font-family: 'Nunito',sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    outline: none;
+    border: none;
+    color: $light;
+    cursor: pointer;}
+
+.btn-post {
+    background: transparent;
+    padding: 12px 17px;
+    font-size: 1rem;
+    font-family: 'Nunito',Arial, Helvetica, sans-serif;
+    font-weight: 500;
+    border-radius: 8px;
+    border: 2px solid $black;
+    outline: none;
+    cursor: pointer;
+    letter-spacing: 1px
+}
+
+.btn-post:hover {
+    background-color: #232328;
+    color: $secondary;
+    transition: background-color .2s, color .3s, transform .3s;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

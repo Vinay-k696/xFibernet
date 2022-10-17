@@ -1,0 +1,331 @@
+@import './variables/_utilities.scss';
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@300;400;500;600;700;800&display=swap');
+
+section.get_connection {
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+    background: url(./svg/contactsvg.png) no-repeat;
+    background-position: 50%;
+    background-size: cover;
+
+}
+
+.get_connection_wrapper {
+    display: flex;
+    justify-content: space-between;
+}
+.get_connection_wrapper
+.other_info {
+    max-width: 30%;
+    width: 100%;
+    min-height: 100%;
+    position: relative;
+    z-index: 1;
+}
+.get_connection_wrapper
+.other_info::before {
+    content: "";
+    position: absolute;
+    right: 0;
+    top: -64px;
+    height: 119%;
+    width: 50vw;
+    background-color: #ecf3ff;
+    z-index: 0;
+}
+
+.getconnectionimg {
+    position: relative;
+    z-index: 1;
+    left: -22rem;
+    top: -4rem;
+}
+
+.get-contentbox {
+    position: relative;
+    z-index: 1;
+    left: -18rem;
+    top: -2rem;
+    width: 540px;
+}
+
+.get-contentbox h1 {
+    font-size: 1.8rem;
+    font-weight: 400;
+}
+
+.get-contentbox p {
+    margin: 1rem 0;
+    font-size: 16px;
+}
+
+.getconnectionimg img{
+    width: 600px;
+    z-index: 1;
+}
+
+.get_connection_wrapper
+.other_info 
+.info_card {
+    max-width: 100%;
+    padding: 1rem; 
+}
+
+.get_connection_wrapper
+.other_info 
+.info_card
+.heading h6 { 
+    font-size: 13px;
+    font-weight: 450;
+}
+.get_connection_wrapper
+.other_info 
+.info_card
+.heading h1 { 
+    font-size: 2rem;
+    font-weight: 350;
+    margin-bottom: 9px;
+}
+
+.get_connection_wrapper
+.other_info 
+.info_card p {
+    font-size: 1.1rem;
+    font-weight: 500;
+    line-height: 25px;
+    color: #000000ab;
+}
+
+.details {
+    margin-top: 8px;}
+
+.details
+.bullets li {
+    font-size: 1rem;
+    font-weight: 480;
+    padding: 10px 0;
+}
+
+#bullet_icon {
+    font-size: 15px;
+    font-weight: 100;
+    margin-right: 8px;
+    color: #cc000a;
+}
+
+//right section
+.form_Sections {
+    //margin: 0 5rem;
+    //background: #000;
+    width: 60%;
+}
+
+.form_Sections
+.form_heading h1 {
+    font-size: 2rem;
+    font-weight: 350;
+    position: relative;
+}
+
+.form_Sections
+.form_heading h1::before {
+    content: '';
+    position: absolute;
+    background: #cc000a;
+    width: 43%;
+    height: 2px;
+    border-radius: 20px;
+    top: 2.6rem;
+}
+
+.connection_container {
+    padding: 2rem;
+    background: #fff;
+    border-radius: 10px;
+    margin-top: 21px;
+    //padding: 30px 30px 46px;
+    //position: relative;
+    //box-shadow: -1px 2px 20px 0 rgb(99 123 147 / 40%);
+    box-shadow: 0 6px 24px -4px rgb(173 168 167 / 22%);
+}
+
+//offers div
+.offers_container {
+    padding-top: 3rem;
+}
+
+.offers_heading
+.offers_hed {
+    font-size: 1.6rem;
+    font-weight: 350;
+    position: relative;
+    color: $black;
+}
+
+.offers_heading h1::before {
+    position: absolute;
+    content: '';
+    width: 30%;
+    height: 2px;
+    background: #cc000a;
+    top: 2.3rem;
+    border-radius: 30px;
+}
+
+.offers_container
+.offers_wrapper
+.offers_card {
+    padding: 1rem;
+    margin-top: 2rem;
+    //background: #202020;
+    background-color: #2d3436;
+    background-image: linear-gradient(315deg, #d3d3d38a 0%, #2d3436 74%);
+    border-radius: 10px;
+    box-shadow: 0 6px 24px -4px rgb(173 168 167 / 32%);
+}
+
+.offers_container
+.offers_wrapper
+.offers_card 
+.offers_contentbox {
+    padding: 1rem 0;
+}
+
+#offers_icon {
+    font-size: 1rem;
+    font-weight: 350;
+    margin-right: 1rem;
+    color: #d3d4d6;
+}
+
+.offers_container
+.offers_wrapper
+.offers_card 
+.offers_contentbox2 {
+    padding: 10px 0;
+}
+
+span.offers_alert {
+    font-size: 1rem;
+    font-weight: 350;
+    color: #ffffffeb;
+}
+
+.offers_container h1 {
+    font-size: 1.1rem;
+    font-weight: 390;
+    color: $secondary;
+    margin-bottom: 10px;
+}
+
+.offers_container p {
+    color: #ffffff8c;
+}
+
+//Form Div
+form.connection_container {
+    padding: 1rem 0;
+}
+
+.form-control label{
+    display: flex;
+    margin: 8px 0;
+    font-size: 18px;
+    font-weight: 400;
+    color: $black;
+}
+
+// .form-control input {
+//     outline: none;
+//     border-bottom: 1px solid #000;
+//     font-size: 16px;
+//     color: #000;
+//     background: transparent;
+//     border: 1px solid #d3d3d4;
+//     border-radius: 6px;
+//     height: 50px;
+//     width: 100%;
+//     padding: 10px;
+//     outline: none;
+// }
+
+.form-control input {
+    outline: none;
+    border-bottom: 1px solid #000;
+    font-size: 16px;
+    color: #000;
+    background: transparent;
+    border: 1px solid #d3d3d4;
+    border-radius: 6px;
+    height: 50px;
+    width: 100%;
+    padding: 10px 20px;
+    font-family: 'Nunito',sans-serif;
+    outline: none;
+    text-transform: capitalize;
+}
+
+.form-control select {
+    padding: 10px;
+    font-size: 1rem;
+    font-weight: 300;
+    font-family: "Nunito",sans-serif;
+    border: none;
+    outline: none;
+    border-bottom: 1px solid #f6f6f6;
+}
+
+
+.form-control input.form-email {
+    text-transform: none;
+}
+
+.form-control input.form-email:focus {
+    text-transform: none;
+}
+
+.form-control input::placeholder {
+    font-size: 13px;
+    font-weight: 300;
+    color: $svg-shadow;
+}
+
+.form-control input:focus {
+    font-family: 'Nunito',sans-serif;
+    font-weight: 600;
+    border: 1px solid #cc000a;
+    text-transform:capitalize;
+}
+
+.form-control input:hover {
+    border: 1px solid #cc000a;
+    transition: all .2s ease-in;
+}
+
+.connection-btn {
+    margin-top: 30px;
+    padding: 8px 16px;
+    display: inline-block;
+    font-family: 'Nunito', sans-serif;
+    background: #cc000a;
+    color: $secondary;
+    cursor: pointer;
+    outline: none;
+    border: none;
+    border-radius: 7px;
+    font-size: 1rem;
+    border: 1px solid transparent;
+}
+
+.connection-btn:hover {
+    background-color: transparent;
+    color: $black;
+    transition: all .3s ease;
+    border: 1px solid #cc000a;
+}
+
+
+
+.messagesend {
+    margin-top: 1rem ;
+}

@@ -1,0 +1,90 @@
+@import './variables/utilities';
+
+section.testimonials {
+    padding-top: 3rem ;
+    padding-bottom: 1rem;
+}
+.testimonials_container {
+    padding: 3.5rem 0;}
+#single_content {
+    max-width: 900px;
+    margin: 0 auto;
+    //width: 100%;
+    //margin: 1rem;
+    height: auto;
+    padding: 3rem;
+    //margin-bottom: 20px;
+    // background-color: #ffffff;
+    border-bottom: 1px solid #ceceda;
+    box-shadow: 0 5px 8px 0 rgb(0 0 0 / 15%);
+    position: relative;}
+#single_content::before {
+    position: absolute;
+    content: '';
+    width: 100px;
+    height: 100%;
+    background-image: url('./svg/quotes.png');
+    background-repeat: no-repeat;
+    background-size: auto;
+    top: 0rem;
+    left: 16px;
+    right: 0px;
+    bottom: -4px;}
+// #single_content::after {
+//     position: absolute;
+//     content: '';
+//     width: 100px;
+//     height: 100%;
+//     background-image: url('./svg/quotes1.png');
+//     background-repeat: no-repeat;
+//     background-size: auto;
+//     background-size: auto;
+//     left: 30.9rem;
+//     right: 0px;
+//     top: 13.6rem;
+//     bottom: 0rem;}
+#single_content > div .u_img {
+    width: 30px;}
+.test-box {
+    display: flex;
+    align-items: center;
+    z-index: 0;}
+.rating .fas {
+    font-size: 1.2rem;
+    color: #FF9529;
+    margin: 26px 5px 0px 5px;}
+.textbox  p{
+    padding: 2.063rem 0;
+    line-height: 35px;
+    font-family: 'Nunito', sans-serif;
+    font-size: 25px;
+    font-weight: 390;
+    font-style: normal;}
+.test-box h6 {
+    font-family: 'Nunito', sans-serif;
+    font-size: 17px;
+    font-weight: 400;
+    font-style: italic;
+    margin-left: 1.25rem;
+    border-bottom: 1px solid #ceceda;}
+
+#single_content:hover {
+    background-color: transparent;
+    box-shadow: 0 8px 16px rgba(0,0,0,0.12);
+    transition: box-shadow .2s ease-in;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

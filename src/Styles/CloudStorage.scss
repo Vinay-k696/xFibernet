@@ -1,0 +1,175 @@
+@import '../Styles/variables/utilities';
+
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200;0,300;0,400;0,600;0,700;0,800;0,900;1,300;1,500;1,800&display=swap');
+
+section.cloud_storage{
+    background: url('./svg/cloud\ bann.jpg');
+    height: 520px;
+    width: auto;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    overflow: hidden;
+    position: relative;
+}
+.cloud_box {
+    padding-top: 64px;
+    padding-bottom: 64px;
+    position: absolute;
+    top: 4rem;
+    bottom: 0;
+    max-width: 600px;
+    color: $secondary;
+}
+.cloud_box h5 {
+    font-size: 0.95rem;
+    font-weight: 500;
+    line-height: 35px;
+    text-transform: uppercase;
+    position: relative;
+}
+.cloud_box h5::before {
+    position: absolute;
+    content: '';
+    width: 210px;
+    height: 1px;
+    top: 30px;
+    background: #f6f6f6;
+    border-radius: 20px;
+}
+.cloud_box h1 {
+    color: $secondary;
+    font-size: 2.1rem;
+    font-weight: 500;
+    margin-bottom: 20px;
+}
+.cloud_box p {
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 33px;
+}
+
+// close banner
+section.info_section {
+    padding: 5rem;
+}
+
+.info_main {
+    display: flex;
+    align-items: center;
+}
+
+.info_content {
+    padding: 3rem;
+    max-width: 600px;
+}
+
+.info_image img{
+    max-width: 85%;
+    height: auto;
+    border-radius: 50%;
+    box-shadow: 0 18px 20px 0 rgb(0 0 0 / 15%);
+    //box-shadow: 0 18px 20px 0 rgba(255, 199, 199, 1);
+}
+
+.info_content h5 {
+    font-size: 16px;
+    font-weight: 600;
+    color: $linearrow;
+    position: relative;
+
+}
+
+.info_content h5::before {
+    content: '';
+    position: absolute;
+    width: 20%;
+    height: 2px;
+    top: -8px;
+    background: $linearrow;
+}
+
+.info_content h1 {
+    font-size: 2.2rem;
+    font-weight: 450;
+    margin: 0.90rem 0;
+}
+
+.info_content p {
+    font-size: 1.25rem;
+    font-weight: 350;
+    line-height: 30px;
+    color: $svg-shadow;
+}
+//end
+
+//benfits
+section.benfits {
+    background: #eff0f4;
+}
+
+.benfit_heading {
+    text-align: center;}
+
+.benfit_heading h1 {
+    font-size: 1.9rem;
+    font-weight: 450;
+}
+
+.benfit_heading p {
+    padding-top: 16px;
+    max-width: 600px;
+    margin: 0 auto;
+    line-height: 1.5;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 25px;
+}
+
+.benfits_block {
+    display: flex;
+    padding: 3rem 0;
+    text-align: center;
+}
+
+.benfit_img img{
+    max-width: 60px;
+    position: relative;
+}
+.benfit_img {
+    position: relative;
+    padding-bottom: 2rem;
+    
+}
+
+.benfit_img::before{
+    content: "";
+    position: absolute;
+    width: 80px;
+    height: 80px;
+    top: -16px;
+    background: $light;
+    border-radius: 50%;
+    left: 137px;
+    right: 0;
+}
+
+.benfit_tiles {
+    background: transparent;
+    margin: 0 10px;
+    flex: 1;
+}
+
+.benfit_tiles p {
+   color: black;
+//    display: none;
+}
+
+
+
+
+
+
+
+
+

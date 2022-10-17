@@ -1,0 +1,43 @@
+iframe {
+    width: 50%;
+    height: 50%;
+}
+// .maps > div {
+//     position: absolute;
+//     margin: 15px 0;
+//     width: 50% !important;
+//     height: 70% !important;
+// }
+
+.maps > div {
+    position: absolute;
+    margin: 1rem 0;
+    max-width: 30% !important;
+    height: 45% !important;
+}
+
+@media (max-width:992px) {
+    .maps > div {
+        position: relative;
+        margin-top: 4rem !important;
+        //margin: 0px 0 !important;
+        max-width: 80% !important;
+        height: 50% !important;
+    }
+}
+
+@media (max-width:576px) {
+    .maps > div {
+        position: relative;
+        max-width: 75% !important;
+        height: 40% !important;
+        margin-top: 3rem !important;
+    } 
+}
+
+// @media (max-width: 1020px) {
+//     .maps > div {
+//         width: 50% !important;
+//         height: 100% !important;
+//     }
+// }

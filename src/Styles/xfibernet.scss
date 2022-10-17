@@ -1,0 +1,578 @@
+@import '../Styles/variables/utilities';
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@300;400;500;600;700;800&display=swap');
+
+
+section.xfibernet {
+    background: url(./svg/xfibernet.png);
+    height: 700px;
+    width: auto;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center bottom;
+    overflow: hidden;
+    position: relative;
+}
+
+.fiber_text_box {
+    position: absolute;
+    padding-top: 64px;
+    padding-bottom: 64px;
+    position: absolute;
+    top: 3rem;
+    bottom: 0;
+    max-width: 700px;
+    color: #ffffff;
+}
+
+.fiber_text_box h6 {
+    font-size: 1.1rem;
+    font-weight: 200;
+    margin-bottom: 10px;
+    position: relative;
+}
+
+.fiber_text_box h6::before {
+    position: absolute;
+    content: '';
+    background-color: #A0A5A4;
+    width: 25%;
+    height: 2px;
+    border-radius: 10px;
+    bottom: 0;
+    top: 25px;
+}
+
+.fiber_text_box h1 {
+    font-size: 2.8rem;
+    font-weight: 380;
+    line-height: 1.4;
+ 
+}
+.fiber_text_box p {
+    font-size: 1.2rem;
+    line-height: 30px;
+    font-weight: 350;
+    color: #e7e7e7;
+    margin: 1.5rem 0;
+}
+.xfiber_btn {
+    display: inline-block;
+    padding: 12px 16px;
+    background: transparent;
+    border: 2px solid rgba(236, 236, 242, 0.15);
+    color: $secondary;
+    border-radius: 8px;
+    outline: none;
+    font-family: 'Nunito', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    cursor: pointer;
+    transition: all 0.7s ease;
+}
+.xfiber_btn:hover {
+    background: #cc000a;
+    color: $secondary;
+}
+
+//advantages
+.adv-head h1{
+    font-size: 2.5rem;
+    font-weight: 300;
+    position: relative;
+}
+
+.adv-head h1::before {
+    position: absolute;
+    content: "";
+    width: 15%;
+    height: 2px;
+    border-radius: 8px;
+    background-color: #cc000a;
+    top: 3rem;
+}
+
+section.x-advantages {
+    padding-top: 3rem;
+    padding-bottom: 1rem;
+}
+
+.xadv-main {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    margin:1rem 0;
+    grid-gap: 20px;
+    align-items: baseline;
+}
+
+.adv-cards {
+    width: 90%;
+    max-width: 90%;
+    padding: 1rem;   
+}
+
+.adv-content h1{
+    margin: 12px 0;
+    font-size: 23px;
+    font-weight: 500;
+}
+
+.adv-content p {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1.3rem;
+}
+
+//streamfiber page
+section.x-benfits {
+    padding-top: 3rem;
+    padding-bottom: 1rem;
+    background: #ffffff;}
+.benfit_wrapper {
+    display: flex;
+    padding: 2.5rem 0;
+    justify-content: center;
+    align-items: center;
+    text-align: center;}
+.benfit_imgbox {
+    text-align: center;
+}
+
+section.x-features {
+    padding: 3rem;
+    position: relative;
+}
+
+.x-features::before {
+    position: absolute;
+    content: "";
+    background: #d1f0f0;
+    width: 67%;
+    height: 73%;
+    top: 7rem;
+    left: 19rem;
+    border-radius: 10px;
+}
+
+
+
+.x-features-heding h1 {
+    font-size: 1.9rem;
+    font-weight: 400;
+    font-family: 'Nunito',sans-serif;
+    position: relative;
+}
+
+.x-features-heding h1::before {
+    position: absolute;
+    content: "";
+    width: 20%;
+    height: 2px;
+    border-radius: 8px;
+    background-color: #cc000a;
+    top: 37px;
+    left: 7rem;
+    z-index: 0;
+}
+
+
+.features-main {
+    display: flex;
+    //background: #d1f0f0;
+    margin: 5rem 0;
+    z-index: 1;
+}
+
+.first-col {
+    z-index: 1;
+}
+
+.sec-col {
+    z-index: 1;
+}
+
+.feature-col-main {
+    margin: 0rem 0rem 0rem 4rem;
+}
+.features-m-card {
+    margin: 1.7rem 0;
+}
+
+.f-card-details h1 {
+    font-size: 23px;
+    font-weight: 400
+}
+
+.f-card-details p{
+    margin-top: 10px;
+    max-width: 450px;
+}
+
+
+.first-col img {
+    // max-width: 500px;
+    // border-radius: 10px;
+    width: 432px;
+    height: 432px;
+    border-radius: 10px;
+    z-index: 1;
+}
+
+section.intro {
+    padding: 4rem 0;
+}
+
+.intro_container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between; 
+}
+
+.intro-headingbox {
+    margin-left: 3rem;
+}
+
+.intro-headingbox h1 {
+    font-size: 2rem;
+    font-weight: 300;
+}
+
+.intro-headingbox p {
+    font-size: 15px;
+    font-weight: 300px;
+    line-height: 25px;
+    text-transform: capitalize;
+    margin: 1rem 0;
+    max-width: 600px;
+}
+
+section.xfeatures {
+    padding:3rem 0;
+}
+
+.xfeature-headbox h1{
+    font-size: 2.5rem;
+    font-weight: 300;
+    position: relative;   
+}
+.xfeature-headbox h1::before {
+    position: absolute;
+    content: "";
+    width: 15%;
+    height: 2px;
+    border-radius: 8px;
+    background-color: #cc000a;
+    top: 3rem;
+}
+.xfeature-headbox p {
+    font-size: 20px;
+    font-weight: 350px;
+    margin: 1rem 0;
+}
+
+.xfeatures_wrapper {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    align-items: center;
+    justify-content: space-between;
+    margin: 1rem 0rem;
+    grid-gap: 30px;
+}
+
+
+.xfeatures-cards {
+    width: 50%;
+    padding:25px;
+    border-radius: 12px;
+    color: $secondary;
+    height: 270px;
+    background-color: #22303c;
+    background-image: linear-gradient(315deg, #2f4353 0%, #1e1e1ea1 74%);
+}
+
+.xfeatures-cards .fcards-c-box h1 {
+    font-size: 25px;
+    font-weight: 360;
+}
+
+.fcards-c-box p {
+    padding-top: 10px;
+    padding-bottom: 15px;
+    font-size: 13px;
+    font-weight: 360;
+    line-height: 23px;
+}
+
+.xfbr-icon {
+    margin-bottom: 10px;
+}
+
+.xfbr-icon img {
+    width: 48px;
+}
+
+ul.x-users {
+    padding: 1rem 0;
+    text-align: start;
+}
+
+ul.x-users li {
+    text-decoration: dotted;
+}
+
+.wht-contactbox h1 {
+    font-size: 2.4rem;
+    font-weight: 390;
+    color: $secondary;
+}
+
+.wht-contactbox p {
+    margin: 1rem 0;
+    line-height: 30px;
+    font-size: 1.1rem;
+    max-width: 600px;
+    color: #ffffffcc;
+}
+
+.cards_mainwrapper {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    margin-top: 2rem;
+    align-items: center;
+    grid-gap: 24px;
+    grid-template-rows: 11rem 11rem;
+}
+
+.card-box {
+    padding: 20px 20px;
+    width: 100%;
+    min-height: 160px;
+    color: #ffffff;
+    border-radius: 8px;
+    border: 1px solid;
+}
+
+.playtxtbox h1 {
+    font-size: 19px;
+    font-weight: 480;
+}
+
+.card-box img {
+    width: 50px;
+    margin-bottom: 1.2rem;
+}
+
+.benfit_content {
+    text-align: center;
+    padding-top: 1.3rem;
+}
+
+.benfit_content h1 {
+    font-size: 1.5rem;
+    font-weight: 360;
+    padding-bottom: 6px;
+}
+
+.benfit_content p {
+    font-size: 1rem;
+    font-weight: 350;
+    color: #646a70;
+}
+
+.social_icons {
+    align-items: center;
+    position: absolute;
+    padding-top: 2rem;
+}
+
+#social_i {
+    color: $secondary;
+    font-size: 25px;
+    margin-left: 25px;
+}
+
+#social_i:hover {
+    color: #c7c7c799;
+    transition: all .4s ease-in-out;
+}
+
+
+section.why-to-get {
+    padding: 2rem 0; }
+
+section.why-to-get
+.xfiber_heading {
+    text-align: center;
+    align-items: center;
+    padding: 2rem 0;
+}
+
+section.why-to-get
+.xfiber_heading h1 {
+    font-size: 2.2rem;
+    font-weight: 400;
+    margin-bottom: 1rem;
+    color: #000000c7;
+    position: relative;
+}
+
+section.why-to-get
+.xfiber_heading h1::before {
+    position: absolute;
+    content: '';
+    background-color: #cc000a;
+    width: 30%;
+    height: 2px;
+    top: 2.69rem;
+    bottom: 0;
+    left: 22rem;
+    border-radius: 20px;
+}
+
+
+section.why-to-get
+.xfiber_heading p {
+    max-width: 980px;
+    color: #7e7e7e;
+    margin: 0 auto;
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 25px;
+}
+
+section.why-to-get .connection_container {
+    display: flex;
+    align-items: center; 
+    padding: 4rem 0;
+}  
+.connection_container .connection img {
+    max-width: 100%;
+    height: fit-content;
+    border-radius: 10px;
+    position: relative;}
+.connection_container .content_box {
+    max-width: 500px;
+    margin: 0rem 3rem;}
+    
+.connection_container .content_box h1 {
+    font-size: 2.2rem;
+    font-weight: 300;
+    margin-bottom: 1rem;}
+.connection_container .content_box p {
+    font-size: 1.1rem;
+    font-weight: 350;
+    line-height: 25px;}
+
+//xfibernetfaq 
+.xfibernetFaq {
+    padding: 5rem 0;
+    -webkit-user-select: none;  
+    -moz-user-select: none;    
+    -ms-user-select: none; 
+    user-select: none;}
+.x-faq-heading{
+    text-align: left;}
+.l-faq-heading h1 {
+    font-size: 2.3rem;
+    font-weight: 500;
+    margin-bottom: 2rem;}
+.x-faq {
+    margin: 1rem auto;}
+.x-faq-items {
+    background-color: #fcfcfc;
+    border-bottom: 1px solid #ceceda;
+    box-shadow: 0 12px 20px 0 rgb(0 0 0 / 15%);
+    border-radius: 8px;
+    margin: 1.9rem 0;
+    padding: 16px 25px;
+    box-shadow:0 8px 10px 0 rgb(63 77 104 / 8%);
+    border-bottom: 1px solid #b3b3b338;
+    transition: all .5s ease-in-out;}
+.x-faq-content{
+    text-align: left;
+    padding: 22px 0 0;
+    font-family: 'Nunito', sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    color: #000000c9;
+    line-height: 25px;}
+.x-faq-title {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    cursor: pointer;
+    font-family: 'Nunito', sans-serif;
+    font-size: 1.2rem;
+    font-weight: 450;
+}
+.x-btn {
+    margin: 2rem 0;}
+.x-faq-btn {
+    padding: 15px 20px;
+    outline: none;
+    border: none;
+    display: inline-block;
+    font-size: 18px;
+    font-weight: 400;
+    border-radius: 8px;
+    color: $black;
+    background: transparent;
+    box-shadow: 0 8px 10px 0 rgb(63 77 104 / 16%);
+    cursor: pointer;
+    transition: all .5s ease-in-out;}
+.x-faq-btn:hover{
+    color: $linearrow;
+    transform: color .5s transform .5s ease;}
+
+section.xstreambenfits {
+    padding-top: 5rem;
+    padding-bottom: 4rem;
+}
+.headingbox  h1{
+    font-size: 2.4rem;
+    font-weight: 300;
+}
+.headingbox p{
+    font-size: 20px;
+    font-weight: 390;
+    margin: 1rem 0;
+    max-width: 600px;
+    line-height: 30px;
+}
+.benfits_wrapper,
+.benfitsecond-wrapper{
+    padding: 3rem 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 1px solid #f3f3f3;
+}
+
+.benfit-third-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.left_section,
+.benfitsleft_section {
+    margin: 0 1rem;
+}
+.left-contentbox h1,
+.benfitsleft_section h1 {
+    font-size: 2.8rem;
+    font-weight: 380;
+}
+.left-contentbox p,
+.benfitsleft_section p {
+    margin: 1rem 0;
+    max-width: 550px;
+    line-height: 35px;
+    font-size: 23px;
+    font-weight: 380;
+}
+
+.right_section img,
+.third-section img {
+    max-width: 460px;
+}

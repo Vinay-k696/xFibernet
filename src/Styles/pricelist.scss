@@ -1,0 +1,234 @@
+@import './variables/utilities';
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200;0,300;0,400;0,600;0,700;0,800;0,900;1,300;1,500;1,800&display=swap');
+
+section.p-list {
+    padding: 2.5rem 0;}
+.p-heading h6 {
+    font-size: 1rem;
+    font-weight: 400;
+    color: $services-gradient;}
+.p-heading h1 {
+    font-size: 2rem;
+    font-weight: 350;
+    position: relative;}
+.p-heading h1::before {
+    content: '';
+    position: absolute;
+    width: 30%;
+    height: 2px;
+    background: #cc000a;
+    border-radius: 10px;
+    top: 2.8rem;
+    border-radius: 10px;}
+.monthly,
+.quarterly,
+.semi-annual, 
+.annual{
+    padding: 2.5rem 0;
+    position: relative;
+}
+.annual::before,
+.monthly::before,
+.semi-annual::before,
+.quarterly::before {
+    content: '';
+    position: absolute;
+    width: 80%;
+    height: 2px;
+    top: 5.8rem;
+    background: #919191;
+    border-radius: 20px;
+}
+.annual h1,
+.monthly h1,
+.semi-annual h1,
+.quarterly h1{
+    font-size: 2rem;
+    font-weight: 350;
+}
+.p-wrapper {
+    padding-top: 2rem;
+    // display: grid;
+    // grid-template-columns: repeat(4,1fr);
+    // grid-gap: 30px;
+    // grid-row: 30px;
+}
+.p-card {
+    background-color: #000000;
+    background-image: linear-gradient(315deg, #000000 0%, #414141 74%);
+    color: $secondary;
+    padding: 1.1rem 1rem;
+    width: 100%;
+    border-radius: 8px;
+}
+
+.p-details .p-info h6 {
+    font-size: 25px;
+    font-weight: 300;}
+.p-details .p-info h1 {
+    font-size: 18px;
+    font-weight: 300;}
+.p-details .p-info {
+    padding-bottom: 1.3rem;
+    border-bottom: 1px solid rgba(236, 236, 242, 0.15);
+}
+
+.p-benfits {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 0;
+    border-bottom: 1px solid rgba(236, 236, 242, 0.15);
+}
+
+.p-validity small.ex_benfit {
+    font-size: 12px;
+    font-weight: 350;
+}
+
+.p-benfits .p-ben span,
+.p-benfits .p-validity span {
+    font-size: 14px;
+    font-weight: 350;
+    border-bottom: 1px solid rgba(236, 236, 242, 0.15);
+}
+
+.p-benfits .p-ben h4,
+.p-benfits .p-validity h4{
+    font-size: 18px;
+    font-weight: 380;
+    margin-top: 5px;
+}
+
+.p-footer {
+    display: flex;
+    padding-top: 1rem;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.p-footer .p-price > div {
+    display: flex;
+    align-items: baseline;
+}
+
+.p-footer .p-price > div span {
+    font-size: 16px;
+    font-weight: 400;
+    margin: 0 6px;
+}
+
+.p-footer .p-price > div h3 {
+    font-size: 1.3rem;
+    font-weight: 400;}
+
+.p-footer .p-price h6 {
+    font-size: 1rem;
+    font-weight: 350;
+    margin-bottom: 10px;}
+
+.buy-btn {
+    display: inline-block;
+    padding: 8px 18px;
+    font-family: 'Nuito',sans-serif;
+    font-size: 1.1rem;
+    border: 2px solid rgba(236, 236, 242, 0.15);
+    color: $secondary;
+    background: transparent;
+    outline: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.buy-btn:hover {
+    color: $black;
+    background-color: $secondary;
+    transition: all .3s ease-in-out;
+}
+
+// section more-info
+section.more-info {
+    padding: 2rem 0;
+}
+
+section.more-info 
+.moreinfo-heading {
+    text-align: center;
+}
+
+section.more-info 
+.moreinfo-heading h1 {
+    font-size: 2.1rem;
+    font-weight: 420;
+    position: relative;
+}
+
+section.more-info 
+.moreinfo-heading h1::before {
+    position: absolute;
+    content: "";
+    background: #cc000a;
+    width: 20%;
+    height: 2px;
+    top: 3rem;
+    border-radius: 10px;
+}
+
+section.more-info 
+.moreinfo-container {
+    padding: 3rem 0;
+}
+
+.more-btn {
+    display: flex;
+    justify-content: center;
+}
+
+.more-btn > div {
+    margin: 0 8px;
+}
+
+
+.btn-more {
+    padding: 10px 16px;
+    cursor: pointer;
+    display: inline-block;
+    font-family: 'Nunito',sans-serif;
+    font-size: 1rem;
+    font-weight: 400;
+    border: 1px solid rgb(53 53 53 / 42%);
+    background: transparent;
+    border-radius: 8px;
+    color: $black;
+    transition: all .3s ease-in-out;
+}
+
+.btn-more:hover {
+    background-color: $black;
+    color: $secondary;
+}
+
+section.terms {
+    padding: 1rem 0;
+}
+
+section.terms 
+.terms_heading h1 {
+    font-size: 2.1rem;
+    font-weight: 380;
+}
+
+section.terms 
+.terms_container {
+    padding: 1.2rem 0;
+}
+
+section.terms 
+.terms_container ul li {
+    padding-bottom: 10px;
+    font-size: 17px;
+    font-weight: 400;
+    position: relative;
+    list-style: circle;
+    list-style-position: inside;
+}

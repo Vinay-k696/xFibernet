@@ -1,0 +1,118 @@
+@import './variables/utilities';
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200;0,300;0,400;0,600;0,700;0,800;0,900;1,300;1,500;1,800&display=swap');
+
+section.get_connection{
+    padding: 3rem;
+    background: url(./svg/exp_bann.png) no-repeat;
+    height: 620px;
+    background-position: center center;
+    background-size: cover;
+    color: $secondary;
+    align-items: center;}
+.get_connection_wrap {
+    display: flex;
+    flex: 1 1;
+    justify-content: space-between;}
+// .conn_text_box{
+//     position: relative;
+//     width: 100%;}
+//.get_text_area {
+    //position: absolute;
+    //top: 10rem;
+    //width: fit-content;
+    //left: 7rem;
+    //right: 0;
+    //bottom: 0px;
+//}
+.get_text_area {
+    padding: 9rem 0;
+}
+.get_text_area h6 {
+    font-size: 1.5rem;
+    font-weight: 200;
+    position: relative;
+    color: #ffffff8f;}
+    .get_text_area h6::before{
+    position: absolute;
+    content: '';
+    width: 35%;
+    height: 2px;
+    left:3px;
+    border-radius: 6px;
+    top: 30px;
+    background-color: #ffffff52;}
+.get_text_area h1 {
+    font-size: 3rem;
+    font-weight: 350;
+    padding-bottom: 1rem;
+    max-width: 500px;}
+.get_text_area p {
+    font-size: 1.5rem;
+    font-weight: 300;
+    color: #ffffffd6;}
+// .form_box{
+//     position: relative;
+//     width: 100%;}
+.form_box_content {
+    // position: absolute;
+    // max-width: 100%;
+    // left: 6rem;
+    //top: 9rem;
+    //top: 1rem;
+    padding: 1rem 0;
+}
+.form_inner input{
+    outline: none;
+    border: none;
+    background: transparent;
+    border-bottom: 1px solid rgba(255,255,255,.2);;
+    // padding: 10px 16px;
+    display: block;
+    //margin: 0 0 45px;
+    margin: 0 0 20px;
+    //padding: 0 0 14px;
+    width: 100%;
+    -webkit-appearance: none;
+    appearance: none;
+    -webkit-border-radius: 0;
+    border-radius: 0;}
+form label{display: flex;}
+form.get_form {width: 25rem;}
+form.get_form .form_inner input {
+    padding: 15px 5px;
+    font-size: 18px;
+    color: #ffffffeb;
+    font-family: 'Nunito',sans-serif;
+    display: inline-block;
+    font-weight: 400;
+    background: transparent;}
+form.get_form .form_inner input::placeholder{
+    font-size: 18px;
+    font-weight: 400px;
+    color: #ffffff85;}
+form.get_form .form_inner input:focus {
+    background: transparent;
+    font-family: 'Nunito',sans-serif;
+    color: $secondary;
+    font-size: 18px;
+    font-weight: 300;}
+.btn-get-submit {
+    margin-top: 1.1rem;
+    padding: 10px 30px;
+    display: inline-block;
+    font-family: 'Nunito',sans-serif;
+    font-size: 22px;
+    font-weight: 400;
+    outline: none;
+    border: 2px solid rgba(236, 236, 242, 0.15);
+    color: $secondary;
+    background: transparent;
+    cursor: pointer;
+    border-radius: 10px;
+    transition: all .4s ease-in-out;}
+.btn-get-submit:hover {
+    background: #cc000a;
+    color: $secondary;
+}
+
+

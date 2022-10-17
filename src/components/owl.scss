@@ -1,0 +1,108 @@
+@import '../Styles/variables/utilities';
+
+#nav_banner {
+    position: relative;
+    height: 70vh;
+    width: 100%;
+    color: $secondary;
+}
+.carousel_main { 
+    position: absolute;
+    //background: rgba(0, 0, 0, 0.8);
+    //background:   linear-gradient(90.08deg, rgba(39, 39, 40, 0.85) 39.99%, rgba(4, 4, 4, 0) 99.92%);
+    background: linear-gradient(280deg, rgb(39 39 40 / 44%) -15.01%, rgb(4 4 4 / 13%) 99.92%);
+    width: 100%;
+    height: 100vh;}
+
+// .owl-carousel .owl-item img {
+//     // height: 500px;
+//     // width: 100%;
+// }
+
+.carousel_content {
+    position: absolute;
+    //background: #2f2f2f;
+    //background: rgba(0, 0, 0, 0.8);
+    text-align: left;
+    height: auto;
+    width: 600px;
+    top: 8%;
+    left: 15%;}
+.carousel_content span{
+    font-size: 15px;
+    font-weight: 300;}
+
+.carousel_content{
+    padding: 10px;}
+
+.carousel_content h2 {
+    padding-top: 10px;
+    font-size: 2rem ;
+    font-weight: 400;}
+
+.carousel_content p {
+    font-family: 'Nunito', sans-serif;
+    font-size: 1.1rem;
+    font-weight: 300;
+    margin: 10px 0;
+    line-height: 28px;}
+
+.carousel_content .terms {
+    padding-top: 20px;
+    font-size: 14px;
+    font-weight: 300;
+    text-decoration: underline;}
+
+.owl-dots{
+    display: none;
+}
+
+/*btns */
+button.banner_button {
+    background: transparent;
+    margin-top: 5px;
+    font-size: 16px;
+    font-family: "Nunito", sans-serif;
+    font-weight: 500;
+    padding: 14px;
+    border: 1px solid #ffffff;
+    cursor: pointer;
+    outline: none;
+    color: #ffffff;
+    border-radius: 5px;}
+
+button.banner_button:hover{
+    background-color: $secondary;
+    color: $black;
+    transition: background-color 1s, color 1s, transform 2s;}
+
+.banner_title h3 {
+    padding-bottom: 10px 0;
+    font-size: 1.5rem;
+    font-weight: 300;
+}
+
+.banner_content {padding: 10px 0;}
+
+.banner_benfit h5 {
+    //padding-top: 10px;
+    font-size: 1.6rem;
+    font-weight: 350;}
+
+.sm-title{
+    font-size: 1rem;
+    text-transform: uppercase;
+    color: $svg-shadow;
+    font-weight: 600;
+    position: relative;
+}
+
+.sm-title::before {
+    position: absolute;
+    content: '';
+    width: 100%;
+    height: 2px;
+    background-color: rgb(236 236 242 / 40%);
+    top: 19px;
+    border-radius: 10px;
+}
